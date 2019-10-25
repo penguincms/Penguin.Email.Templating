@@ -1,0 +1,20 @@
+Microsoft (R) Build Engine version 16.3.0+0f4c62fea for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 27.34 ms for C:\Penguin\Repositories\Penguin.Email.Abstractions\Penguin.Email.Abstractions.Local.csproj.
+  Restore completed in 27.35 ms for C:\Penguin\Repositories\Penguin.Templating.Abstractions\Penguin.Templating.Abstractions.Local.csproj.
+  Restore completed in 27.35 ms for C:\Penguin\Repositories\Penguin.Files.Abstractions\Penguin.Files.Abstractions.Local.csproj.
+  Restore completed in 27.35 ms for C:\Penguin\Repositories\Penguin.Email.Templating\Penguin.Email.Templating.Local.csproj.
+  Restore completed in 27.33 ms for C:\Penguin\Repositories\Penguin.Email.Templating.Abstractions\Penguin.Email.Templating.Abstractions.Local.csproj.
+  Penguin.Templating.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Templating.Abstractions\bin\Release\netstandard2.0\Penguin.Templating.Abstractions.Local.dll
+  Penguin.Files.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Files.Abstractions\bin\Release\netstandard2.0\Penguin.Files.Abstractions.Local.dll
+  Penguin.Email.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Email.Abstractions\bin\Release\netstandard2.0\Penguin.Email.Abstractions.Local.dll
+  Penguin.Email.Templating.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Email.Templating.Abstractions\bin\Release\netstandard2.0\Penguin.Email.Templating.Abstractions.Local.dll
+  Penguin.Email.Templating.Local -> C:\Penguin\Repositories\Penguin.Email.Templating\bin\Release\netstandard2.0\Penguin.Email.Templating.Local.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.67
+
