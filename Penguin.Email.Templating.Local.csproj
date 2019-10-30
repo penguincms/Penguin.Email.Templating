@@ -5,10 +5,12 @@
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Email.Templating</PackageProjectUrl>
     <Version>1.0.0</Version>
     <Description>Not Available</Description>
+    <AssemblyName>Penguin.Email.Templating</AssemblyName>
+    <RootNamespace>Penguin.Email.Templating</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Penguin.Email.Templating.Abstractions\Penguin.Email.Templating.Abstractions.Local.csproj" />
     <ProjectReference Include="..\Penguin.Email.Abstractions\Penguin.Email.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Email.Templating.Abstractions\Penguin.Email.Templating.Abstractions.Local.csproj" />
     <ProjectReference Include="..\Penguin.Files.Abstractions\Penguin.Files.Abstractions.Local.csproj" />
     <ProjectReference Include="..\Penguin.Templating.Abstractions\Penguin.Templating.Abstractions.Local.csproj" />
   </ItemGroup>
