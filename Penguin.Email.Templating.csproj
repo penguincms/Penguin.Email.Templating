@@ -9,6 +9,6 @@
     <RootNamespace>Penguin.Email.Templating</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Email.Templating.Abstractions" Version="1.0.1-T9M3AAF" />
+    <PackageReference Include="Penguin.Email.Templating.Abstractions" Version="1.0.1-T9MJL4F" />
   </ItemGroup>
 </Project>
