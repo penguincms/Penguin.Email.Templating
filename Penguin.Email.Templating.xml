@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Penguin.Email.Templating</name>
+    </assembly>
+    <members>
+        <member name="T:Penguin.Email.Templating.EmailRenderer">
+            <summary>
+            An email renderer/binder that does not rely on MVC. Binds to {Parameter.Property} Notation
+            </summary>
+        </member>
+        <member name="M:Penguin.Email.Templating.EmailRenderer.#ctor">
+            <summary>
+            Constructs a new instance of this email renderer
+            </summary>
+        </member>
+        <member name="M:Penguin.Email.Templating.EmailRenderer.IsStraightCopy(System.Type)">
+            <summary>
+            Checks to see if the data type gets copied 1-1, or if recursive binding is needed
+            </summary>
+            <param name="toTest">The type to test</param>
+            <returns>True if no recursive binding is needed</returns>
+        </member>
+        <member name="M:Penguin.Email.Templating.EmailRenderer.RenderEmail(System.Collections.Generic.IEnumerable{Penguin.Templating.Abstractions.TemplateParameter},Penguin.Email.Templating.Abstractions.Interfaces.IEmailTemplate,System.Reflection.PropertyInfo)">
+            <summary>
+            Renders out the field of an email template into an HTML string using {Parameter.Property} notation
+            </summary>
+            <param name="Parameters">The source parameters as a dictionary of property name, value pairs</param>
+            <param name="Template">The template to use as the binding definition</param>
+            <param name="Field">The field of the email template that will be bound to (incase its not the body)</param>
+            <param name="SourceParameters">Unused by this renderer</param>
+            <returns>The HTML contents of the post bound template field</returns>
+        </member>
+    </members>
+</doc>
