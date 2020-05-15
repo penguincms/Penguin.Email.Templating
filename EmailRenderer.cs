@@ -47,7 +47,6 @@ namespace Penguin.Email.Templating
         /// <param name="Parameters">The source parameters as a dictionary of property name, value pairs</param>
         /// <param name="Template">The template to use as the binding definition</param>
         /// <param name="Field">The field of the email template that will be bound to (incase its not the body)</param>
-        /// <param name="SourceParameters">Unused by this renderer</param>
         /// <returns>The HTML contents of the post bound template field</returns>
         public string RenderEmail(IEnumerable<TemplateParameter> Parameters, IEmailTemplate Template, PropertyInfo Field)
         {
