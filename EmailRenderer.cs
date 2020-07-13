@@ -50,6 +50,16 @@ namespace Penguin.Email.Templating
         /// <returns>The HTML contents of the post bound template field</returns>
         public string RenderEmail(IEnumerable<TemplateParameter> Parameters, IEmailTemplate Template, PropertyInfo Field)
         {
+            if (Parameters is null)
+            {
+                throw new ArgumentNullException(nameof(Parameters));
+            }
+
+            if (Field is null)
+            {
+                throw new ArgumentNullException(nameof(Field));
+            }
+
             string TemplateValue = Field.GetValue(Template)?.ToString();
 
             foreach (TemplateParameter parameter in Parameters)
