@@ -3,13 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Email.Templating</PackageProjectUrl>
-    <Version>5.0.0</Version>
+    <Version>5.0.1</Version>
     <Description>Not Available</Description>
     <AssemblyName>Penguin.Email.Templating</AssemblyName>
     <RootNamespace>Penguin.Email.Templating</RootNamespace>
     <DocumentationFile>Penguin.Email.Templating.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Email.Templating.Abstractions" Version="5.0.1-TA99DVY" />
+    <PackageReference Include="Penguin.Email.Templating.Abstractions" Version="5.0.2-TA9KKLU" />
   </ItemGroup>
 </Project>
