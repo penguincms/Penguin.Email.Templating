@@ -13,7 +13,7 @@ namespace Penguin.Email.Templating
     /// </summary>
     public class EmailRenderer : IEmailTemplateRenderer
     {
-        private static readonly List<Type> CopyTypes = new List<Type>()
+        private static readonly List<Type> CopyTypes = new()
         {
             typeof(string),
             typeof(DateTime)
@@ -33,12 +33,7 @@ namespace Penguin.Email.Templating
         /// <returns>True if no recursive binding is needed</returns>
         public static bool IsStraightCopy(Type toTest)
         {
-            if (toTest is null)
-            {
-                throw new ArgumentNullException(nameof(toTest));
-            }
-
-            return toTest.IsValueType || CopyTypes.Contains(toTest);
+            return toTest is null ? throw new ArgumentNullException(nameof(toTest)) : toTest.IsValueType || CopyTypes.Contains(toTest);
         }
 
         /// <summary>
