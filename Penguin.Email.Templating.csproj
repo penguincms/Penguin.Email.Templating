@@ -2,12 +2,13 @@
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0</TargetFrameworks>
-    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Email.Templating</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCms/Penguin.Email.Templating</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>Not Available</Description>
     <AssemblyName>Penguin.Email.Templating</AssemblyName>
     <RootNamespace>Penguin.Email.Templating</RootNamespace>
     <DocumentationFile>Penguin.Email.Templating.xml</DocumentationFile>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Penguin.Email.Templating.Abstractions" Version="5.0.6-TB7ZBM0" />
